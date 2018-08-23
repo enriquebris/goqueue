@@ -1,4 +1,4 @@
-package queue
+package goqueue
 
 type IQueue interface {
 	PublishString(queueName string, data string) error
